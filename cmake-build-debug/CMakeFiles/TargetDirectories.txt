@@ -1,0 +1,3 @@
+C:/Users/ASUS/Documents/RUBIKS CUBE/cmake-build-debug/CMakeFiles/RUBIKS_CUBE.dir
+C:/Users/ASUS/Documents/RUBIKS CUBE/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ASUS/Documents/RUBIKS CUBE/cmake-build-debug/CMakeFiles/rebuild_cache.dir
