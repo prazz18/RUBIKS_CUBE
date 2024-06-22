@@ -1,6 +1,8 @@
-#include <iostream>
+#include <bits/stdc++.h>
+#include "GenericRubiksCube.h"
+#include "RubiksCube3d.cpp"
 
+using namespace std;
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+    RubiksCube3dArray
 }

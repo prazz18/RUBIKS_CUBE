@@ -3,7 +3,7 @@
 //
 #include "GenericRubiksCube.h"
 
-class RubiksCube3dArray : public RubiksCube {
+class RubiksCube3d : public RubiksCube {
 private:
 
     void rotateFace(int ind) {
@@ -22,7 +22,7 @@ private:
 public:
     char cube[6][3][3]{};
 
-    RubiksCube3dArray() {
+    RubiksCube3d() {
         for (int i = 0; i < 6; i++) {
             for (int j = 0; j < 3; j++) {
                 for (int k = 0; k < 3; k++)
@@ -229,7 +229,7 @@ public:
         return *this;
     }
 
-    bool operator==(const RubiksCube3dArray &r1) const {
+    bool operator==(const RubiksCube3d &r1) const {
         for (int i = 0; i < 6; i++) {
             for (int j = 0; j < 3; j++) {
                 for (int k = 0; k < 3; k++) {
@@ -240,7 +240,7 @@ public:
         return true;
     }
 
-    RubiksCube3dArray &operator=(const RubiksCube3dArray &r1) {
+    RubiksCube3d &operator=(const RubiksCube3d &r1) {
         for (int i = 0; i < 6; i++) {
             for (int j = 0; j < 3; j++) {
                 for (int k = 0; k < 3; k++) {
@@ -253,7 +253,7 @@ public:
 };
 
 struct Hash3d {
-    size_t operator()(const RubiksCube3dArray &r1) const {
+    size_t operator()(const RubiksCube3d &r1) const {
         string str = "";
         for (int i = 0; i < 6; i++) {
             for (int j = 0; j < 3; j++) {
