@@ -2,7 +2,7 @@
 #include "GenericRubiksCube.h"
 #include "BFSSolver.h"
 #include "RubiksCube3d.cpp"
-
+#include "IDDFSSolver.h"
 using namespace std;
 int main() {
     RubiksCube3d r1;
@@ -15,7 +15,7 @@ int main() {
     r1.print();
     
     cout<<"\n";
-    BFSSolver<RubiksCube3d , Hash3d>bfsSolver(r1);
+    IDDFSSolver<RubiksCube3d , Hash3d>bfsSolver(r1);
     vector<RubiksCube::MOVE>moves = bfsSolver.solve();
     r1 = bfsSolver.rubiksCube;
     cout<<"\n";
