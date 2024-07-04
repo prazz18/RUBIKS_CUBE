@@ -67,6 +67,42 @@ build CMakeFiles/RUBIKS_CUBE.dir/RubiksCube3d.cpp.obj: CXX_COMPILER__RUBIKS_CUBE
   OBJECT_DIR = CMakeFiles\RUBIKS_CUBE.dir
   OBJECT_FILE_DIR = CMakeFiles\RUBIKS_CUBE.dir
 
+build CMakeFiles/RUBIKS_CUBE.dir/NibbleArray.cpp.obj: CXX_COMPILER__RUBIKS_CUBE_unscanned_Debug C$:/Users/ASUS/Documents/RUBIKS$ CUBE/NibbleArray.cpp || cmake_object_order_depends_target_RUBIKS_CUBE
+  DEP_FILE = CMakeFiles\RUBIKS_CUBE.dir\NibbleArray.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\RUBIKS_CUBE.dir
+  OBJECT_FILE_DIR = CMakeFiles\RUBIKS_CUBE.dir
+
+build CMakeFiles/RUBIKS_CUBE.dir/PatternDatabase.cpp.obj: CXX_COMPILER__RUBIKS_CUBE_unscanned_Debug C$:/Users/ASUS/Documents/RUBIKS$ CUBE/PatternDatabase.cpp || cmake_object_order_depends_target_RUBIKS_CUBE
+  DEP_FILE = CMakeFiles\RUBIKS_CUBE.dir\PatternDatabase.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\RUBIKS_CUBE.dir
+  OBJECT_FILE_DIR = CMakeFiles\RUBIKS_CUBE.dir
+
+build CMakeFiles/RUBIKS_CUBE.dir/math.cpp.obj: CXX_COMPILER__RUBIKS_CUBE_unscanned_Debug C$:/Users/ASUS/Documents/RUBIKS$ CUBE/math.cpp || cmake_object_order_depends_target_RUBIKS_CUBE
+  DEP_FILE = CMakeFiles\RUBIKS_CUBE.dir\math.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\RUBIKS_CUBE.dir
+  OBJECT_FILE_DIR = CMakeFiles\RUBIKS_CUBE.dir
+
+build CMakeFiles/RUBIKS_CUBE.dir/CornerPatternDatabase.cpp.obj: CXX_COMPILER__RUBIKS_CUBE_unscanned_Debug C$:/Users/ASUS/Documents/RUBIKS$ CUBE/CornerPatternDatabase.cpp || cmake_object_order_depends_target_RUBIKS_CUBE
+  DEP_FILE = CMakeFiles\RUBIKS_CUBE.dir\CornerPatternDatabase.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\RUBIKS_CUBE.dir
+  OBJECT_FILE_DIR = CMakeFiles\RUBIKS_CUBE.dir
+
+build CMakeFiles/RUBIKS_CUBE.dir/RubiksCubeBitboard.cpp.obj: CXX_COMPILER__RUBIKS_CUBE_unscanned_Debug C$:/Users/ASUS/Documents/RUBIKS$ CUBE/RubiksCubeBitboard.cpp || cmake_object_order_depends_target_RUBIKS_CUBE
+  DEP_FILE = CMakeFiles\RUBIKS_CUBE.dir\RubiksCubeBitboard.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\RUBIKS_CUBE.dir
+  OBJECT_FILE_DIR = CMakeFiles\RUBIKS_CUBE.dir
+
+build CMakeFiles/RUBIKS_CUBE.dir/CornerDBMaker.cpp.obj: CXX_COMPILER__RUBIKS_CUBE_unscanned_Debug C$:/Users/ASUS/Documents/RUBIKS$ CUBE/CornerDBMaker.cpp || cmake_object_order_depends_target_RUBIKS_CUBE
+  DEP_FILE = CMakeFiles\RUBIKS_CUBE.dir\CornerDBMaker.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\RUBIKS_CUBE.dir
+  OBJECT_FILE_DIR = CMakeFiles\RUBIKS_CUBE.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target RUBIKS_CUBE
@@ -75,7 +111,7 @@ build CMakeFiles/RUBIKS_CUBE.dir/RubiksCube3d.cpp.obj: CXX_COMPILER__RUBIKS_CUBE
 #############################################
 # Link the executable RUBIKS_CUBE.exe
 
-build RUBIKS_CUBE.exe: CXX_EXECUTABLE_LINKER__RUBIKS_CUBE_Debug CMakeFiles/RUBIKS_CUBE.dir/main.cpp.obj CMakeFiles/RUBIKS_CUBE.dir/GenericRubiksCube.cpp.obj CMakeFiles/RUBIKS_CUBE.dir/RubiksCube3d.cpp.obj
+build RUBIKS_CUBE.exe: CXX_EXECUTABLE_LINKER__RUBIKS_CUBE_Debug CMakeFiles/RUBIKS_CUBE.dir/main.cpp.obj CMakeFiles/RUBIKS_CUBE.dir/GenericRubiksCube.cpp.obj CMakeFiles/RUBIKS_CUBE.dir/RubiksCube3d.cpp.obj CMakeFiles/RUBIKS_CUBE.dir/NibbleArray.cpp.obj CMakeFiles/RUBIKS_CUBE.dir/PatternDatabase.cpp.obj CMakeFiles/RUBIKS_CUBE.dir/math.cpp.obj CMakeFiles/RUBIKS_CUBE.dir/CornerPatternDatabase.cpp.obj CMakeFiles/RUBIKS_CUBE.dir/RubiksCubeBitboard.cpp.obj CMakeFiles/RUBIKS_CUBE.dir/CornerDBMaker.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\RUBIKS_CUBE.dir
