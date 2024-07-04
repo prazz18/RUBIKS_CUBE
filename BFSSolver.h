@@ -56,6 +56,4 @@ public:
         return moves;
     }
 };
-
-
 #endif //BFSSOLVER_H
